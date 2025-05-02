@@ -8,8 +8,8 @@ from selenium.common.exceptions import NoSuchElementException
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option('detach',True)
-ACCOUNT_EMAIL = 'b32138481@gmail.com'
-ACCOUNT_PASSWORD = 'abc123@xyx'
+ACCOUNT_EMAIL = 'Your email address'
+ACCOUNT_PASSWORD = 'password here'
 PHONE = '1234567891'
 
 def abort_application():
