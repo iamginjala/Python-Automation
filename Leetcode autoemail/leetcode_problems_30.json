@@ -1,0 +1,250 @@
+[
+  {
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "topic": "Array, Hash Table",
+    "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+    "real_world_intuition": "Used in finance apps to find two expenses that match a specific total for reconciliation.",
+    "simple_explanation": "Use a hash map to store seen numbers and their indices, then check if the complement exists."
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "topic": "Stack, String",
+    "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+    "real_world_intuition": "Used in compilers to ensure code blocks are properly closed and nested.",
+    "simple_explanation": "Use a stack: push opening brackets and pop when matching closing brackets."
+  },
+  {
+    "title": "Palindrome Number",
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "topic": "Math",
+    "description": "Given an integer x, return true if x is a palindrome, and false otherwise.",
+    "real_world_intuition": "Useful in UI validation for symmetric identifiers or palindromic codes.",
+    "simple_explanation": "Convert the number to a string and compare it with its reverse."
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "topic": "Linked List",
+    "description": "Merge two sorted linked lists and return it as a new sorted list by splicing together nodes.",
+    "real_world_intuition": "Merging sorted data streams in search engines or logs.",
+    "simple_explanation": "Iterate both lists, pick smaller node each time to build merged list."
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "topic": "Array, Two Pointers",
+    "description": "Given a sorted array nums, remove duplicates in-place such that each element appears only once.",
+    "real_world_intuition": "Cleaning sorted datasets to remove redundant entries.",
+    "simple_explanation": "Use two pointers: one for unique placement and one for scanning."
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "topic": "Array, Dynamic Programming",
+    "description": "Given an array of prices, maximize profit by choosing a single buy-sell transaction.",
+    "real_world_intuition": "Financial analysis to determine optimal trading windows.",
+    "simple_explanation": "Track minimum price and calculate max profit at each step."
+  },
+  {
+    "title": "Intersection of Two Arrays II",
+    "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "topic": "Array, Hash Table, Two Pointers",
+    "description": "Return intersection of two arrays including duplicates.",
+    "real_world_intuition": "Finding common elements in datasets, like shared tags.",
+    "simple_explanation": "Count elements of one array then collect matches from the other."
+  },
+  {
+    "title": "Majority Element",
+    "url": "https://leetcode.com/problems/majority-element/",
+    "topic": "Array, Hash Table",
+    "description": "Given an array, find the element that appears more than n/2 times.",
+    "real_world_intuition": "Polling systems to find consensus choice.",
+    "simple_explanation": "Use Boyer-Moore or counting to identify majority."
+  },
+  {
+    "title": "Move Zeroes",
+    "url": "https://leetcode.com/problems/move-zeroes/",
+    "topic": "Array, Two Pointers",
+    "description": "Move all zeros to the end while maintaining order of non-zero elements.",
+    "real_world_intuition": "Optimizing data buffers by pushing null entries aside.",
+    "simple_explanation": "Swap non-zero elements forward with a pointer."
+  },
+  {
+    "title": "Contains Duplicate",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "topic": "Array, Hash Table",
+    "description": "Check if any value appears at least twice in the array.",
+    "real_world_intuition": "Detect duplicate usernames or IDs during user signup.",
+    "simple_explanation": "Use a set to track seen values and detect repeats."
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "topic": "Tree, DFS, BFS",
+    "description": "Check whether a binary tree is a mirror of itself.",
+    "real_world_intuition": "Verifying palindromic structures in hierarchical data.",
+    "simple_explanation": "Recursively compare left and right subtrees for symmetry."
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "topic": "Tree, DFS",
+    "description": "Find the maximum depth of a binary tree.",
+    "real_world_intuition": "Computing levels in organizational or file system hierarchies.",
+    "simple_explanation": "DFS traversal to compute max depth from root."
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "topic": "Tree, DFS, Stack",
+    "description": "Return the inorder traversal of a binary tree's nodes.",
+    "real_world_intuition": "Converting hierarchical data into a linear, sorted list.",
+    "simple_explanation": "Use recursion or a stack to visit left-root-right."
+  },
+  {
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "topic": "Tree, DFS",
+    "description": "Invert a binary tree by swapping children of all nodes.",
+    "real_world_intuition": "Flipping decision trees in data analysis.",
+    "simple_explanation": "Recursively swap left and right subtrees."
+  },
+  {
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "topic": "Array, Dynamic Programming",
+    "description": "Find contiguous subarray with the largest sum.",
+    "real_world_intuition": "Identifying most profitable period from time-series data.",
+    "simple_explanation": "Use Kadane\u2019s Algorithm to track current and max sums."
+  },
+  {
+    "title": "Climbing Stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "topic": "Dynamic Programming",
+    "description": "Count ways to climb n stairs with 1 or 2 steps.",
+    "real_world_intuition": "Modeling growth patterns or path counting in game design.",
+    "simple_explanation": "Fibonacci sequence DP to sum previous two counts."
+  },
+  {
+    "title": "Merge Sorted Array",
+    "url": "https://leetcode.com/problems/merge-sorted-array/",
+    "topic": "Array, Two Pointers",
+    "description": "Merge two sorted arrays into one, in-place.",
+    "real_world_intuition": "Merging sorted logs or streaming data buffers.",
+    "simple_explanation": "Use pointers from the end to merge without overwrite."
+  },
+  {
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "topic": "Tree, DFS",
+    "description": "Check if two binary trees are identical.",
+    "real_world_intuition": "Comparing structured data versions for backups.",
+    "simple_explanation": "Recursively compare node values and subtrees."
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "topic": "Tree, BFS",
+    "description": "Find the minimum depth from root to the nearest leaf.",
+    "real_world_intuition": "Determining shortest path in network topologies.",
+    "simple_explanation": "Use BFS to find the first leaf level."
+  },
+  {
+    "title": "Pascal's Triangle",
+    "url": "https://leetcode.com/problems/pascals-triangle/",
+    "topic": "Array, Dynamic Programming",
+    "description": "Generate first numRows of Pascal's triangle.",
+    "real_world_intuition": "Used in probability calculations and combinatorics.",
+    "simple_explanation": "Build rows using sums of adjacent elements from previous row."
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock II",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "topic": "Array, Greedy",
+    "description": "Calculate max profit with multiple buy-sell transactions.",
+    "real_world_intuition": "Automated trading bots executing multiple trades for profit.",
+    "simple_explanation": "Sum all positive differences between consecutive prices."
+  },
+  {
+    "title": "Linked List Cycle",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "topic": "Linked List, Two Pointers",
+    "description": "Detect if a linked list has a cycle.",
+    "real_world_intuition": "Prevent infinite loops in data processing pipelines.",
+    "simple_explanation": "Use slow and fast pointers; if they meet, there's a cycle."
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "topic": "Tree, BFS, DFS",
+    "description": "Determines if a binary tree is a mirror of itself.",
+    "real_world_intuition": "Ensuring mirrored data structures in backups.",
+    "simple_explanation": "Compare left and right subtrees recursively."
+  },
+  {
+    "title": "Maximum Depth of N-ary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
+    "topic": "Tree, DFS",
+    "description": "Find maximum depth of an n-ary tree.",
+    "real_world_intuition": "Calculating depth in multi-child hierarchical data.",
+    "simple_explanation": "DFS to compute depth among all children."
+  },
+  {
+    "title": "Minimum Path Sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/",
+    "topic": "Array, Dynamic Programming",
+    "description": "Find a path from top-left to bottom-right with minimum sum.",
+    "real_world_intuition": "Route optimization in grid-based maps.",
+    "simple_explanation": "DP accumulation from top-left to other cells."
+  },
+  {
+    "title": "Single Number",
+    "url": "https://leetcode.com/problems/single-number/",
+    "topic": "Array, Bit Manipulation",
+    "description": "Every element appears twice except one. Find that single one.",
+    "real_world_intuition": "Error detection using XOR in data streams.",
+    "simple_explanation": "Use bitwise XOR to cancel pairs and isolate the single."
+  },
+  {
+    "title": "Plus One",
+    "url": "https://leetcode.com/problems/plus-one/",
+    "topic": "Array, Math",
+    "description": "Add one to a number represented as an array of digits.",
+    "real_world_intuition": "Implementing increment operations in version numbers.",
+    "simple_explanation": "Traverse digits from end, handle carry appropriately."
+  },
+  {
+    "title": "Fizz Buzz",
+    "url": "https://leetcode.com/problems/fizz-buzz/",
+    "topic": "Array, String",
+    "description": "Return an array of strings for numbers 1 to n with FizzBuzz rules.",
+    "real_world_intuition": "Classic coding test, filtering and mapping numbers.",
+    "simple_explanation": "Check divisibility and append corresponding strings."
+  },
+  {
+    "title": "Jewels and Stones",
+    "url": "https://leetcode.com/problems/jewels-and-stones/",
+    "topic": "String, Hash Table",
+    "description": "Count how many stones are jewels based on two strings.",
+    "real_world_intuition": "Counting matching categories in inventories.",
+    "simple_explanation": "Use a set of jewels and count occurrences in stones."
+  },
+  {
+    "title": "Reverse String",
+    "url": "https://leetcode.com/problems/reverse-string/",
+    "topic": "Two Pointers, String",
+    "description": "Reverse an array of characters in-place.",
+    "real_world_intuition": "In-place manipulations in low-memory environments.",
+    "simple_explanation": "Swap characters from ends moving inward."
+  },
+  {
+    "title": "Reverse Integer",
+    "url": "https://leetcode.com/problems/reverse-integer/",
+    "topic": "Math, String",
+    "description": "Reverse digits of an integer, handling overflow.",
+    "real_world_intuition": "Numeric manipulations in parsing routines.",
+    "simple_explanation": "Extract digits and build reversed number with checks."
+  }
+]
